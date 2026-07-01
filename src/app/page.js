@@ -139,7 +139,7 @@ export default function Home() {
               <span className="text-yellow-200 ml-3 text-4xl">✨</span>
             </h2>
             <p className="text-lg md:text-xl leading-relaxed font-medium md:px-20 text-orange-50">
-              SAITAMA KAIGO NEXTでは、介護の就職・個別相談会を実施します！<br className="hidden md:block" />
+              SAMPLE KAIGO PORTALでは、介護の就職・個別相談会を実施します！<br className="hidden md:block" />
               相談会では、地元の介護事業所担当者と直接相談ができる就職相談会も同時開催いたします。<br className="hidden md:block" />
               ぜひこの機会にいろいろとご質問してください。
             </p>
@@ -237,20 +237,20 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-10 flex items-center justify-center">
             <span className="text-brand-orange mr-2">✨</span>
-            埼玉県の介護・福祉関連リンクのご案内
+            地域エリアの介護・福祉関連リンクのご案内
             <span className="text-brand-green ml-2">✨</span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {/* Link Items */}
             {[
-              { text: "さいたま介護ねっと", sub: "彩の国 埼玉県", border: "border-red-400" },
-              { text: "埼玉県福祉人材センター", sub: "社会福祉法人 埼玉県社会福祉協議会", border: "border-blue-400" },
+              { text: "サンプル介護ねっと", sub: "〇〇県", border: "border-red-400" },
+              { text: "〇〇県福祉人材センター", sub: "社会福祉法人 〇〇県社会福祉協議会", border: "border-blue-400" },
               { text: "介護職員しっかり応援プロジェクト", sub: "介護の魅力PR特設公開中☆", border: "border-gray-300" },
-              { text: "埼玉県外国人介護職員応援宣言", sub: "埼玉県", border: "border-green-400" },
-              { text: "実務者研修受講料補助金", sub: "埼玉県介護職員共済協同組合事業", border: "border-gray-300" },
+              { text: "〇〇県外国人介護職員応援宣言", sub: "〇〇県", border: "border-green-400" },
+              { text: "実務者研修受講料補助金", sub: "〇〇県介護職員共済協同組合事業", border: "border-gray-300" },
               { text: "ハートフルメッセージ募集", sub: "介護スタッフに対する", border: "border-pink-300" },
               { text: "厚生労働省", sub: "Ministry of Health, Labour and Welfare", border: "border-blue-800" },
-              { text: "介護福祉士修学資金貸付事業", sub: "埼玉県", border: "border-gray-300" }
+              { text: "介護福祉士修学資金貸付事業", sub: "〇〇県", border: "border-gray-300" }
             ].map((link, idx) => (
               <a key={idx} href="#" className={`bg-white border-2 ${link.border} rounded-xl p-4 flex flex-col items-center justify-center text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group relative overflow-hidden`}>
                 <div className="absolute top-0 left-0 w-full h-1 bg-gray-100 group-hover:bg-brand-orange transition-colors duration-300"></div>

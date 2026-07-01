@@ -122,7 +122,7 @@ export default function ContactPage() {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="例：埼玉 太郎" 
+                  placeholder="例：サンプル 太郎" 
                   className="w-full border-2 border-gray-200 rounded-lg p-3 focus:border-brand-orange focus:ring-0 outline-none transition"
                 />
               </div>

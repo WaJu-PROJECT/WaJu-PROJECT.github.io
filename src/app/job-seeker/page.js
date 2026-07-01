@@ -8,7 +8,7 @@ export default function JobSeekerPage() {
       <div className="bg-brand-orange text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">介護のお仕事をお探しの方へ</h1>
-          <p className="text-lg opacity-90">SAITAMA KAIGO NEXTがあなたの就職活動を全力でサポートします。</p>
+          <p className="text-lg opacity-90">SAMPLE KAIGO PORTALがあなたの就職活動を全力でサポートします。</p>
         </div>
       </div>
 
@@ -17,7 +17,7 @@ export default function JobSeekerPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-6 border-l-4 border-brand-orange pl-4">充実した就職支援制度</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
-              無資格・未経験からでも安心して介護のお仕事を始められるよう、埼玉県では様々な支援を行っています。研修の受講費用補助や、就職支援金の貸付制度など、キャリアのスタートを後押しします。
+              無資格・未経験からでも安心して介護のお仕事を始められるよう、当エリアでは様々な支援を行っています。研修の受講費用補助や、就職支援金の貸付制度など、キャリアのスタートを後押しします。
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">

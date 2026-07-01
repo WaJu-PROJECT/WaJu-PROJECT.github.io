@@ -58,7 +58,7 @@ export default function Header() {
           <div className="bg-pink-50 p-4 rounded-xl border border-pink-100 col-span-2 relative overflow-hidden">
              <div className="absolute -right-4 -bottom-4 w-24 h-24 bg-[#e91e63] opacity-5 rounded-full blur-xl"></div>
             <h4 className="font-bold text-[#e91e63] mb-2 relative z-10 text-sm">スキルアップ支援制度</h4>
-            <p className="text-xs text-gray-700 leading-relaxed relative z-10">資格取得に向けた補助金や、働きながら学べる制度のご案内。<br/>より専門的な知識と技術を身につけ、キャリアアップを目指す方を埼玉県が全力でサポートします。</p>
+            <p className="text-xs text-gray-700 leading-relaxed relative z-10">資格取得に向けた補助金や、働きながら学べる制度のご案内。<br/>より専門的な知識と技術を身につけ、キャリアアップを目指す方を全力でサポートします。</p>
           </div>
         </div>
       </div>
