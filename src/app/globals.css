@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #f28b46;
+  --color-brand-orange-hover: #e07a3c;
+  --color-brand-green: #2c7a7b;
+  --color-brand-green-hover: #236162;
+  --color-brand-blue: #3b82f6;
+  --color-brand-purple: #8b5cf6;
+  --color-bg-light: #fdfdfd;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333;
+  background-color: #fafafa;
+}
